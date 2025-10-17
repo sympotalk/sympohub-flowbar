@@ -1,0 +1,28 @@
+:root {
+  --primary: #1A6AFF;
+  --accent: #0053CE;
+  --panel-bg: rgba(255,255,255,0.18);
+  --text-main: #E6F0FF;
+  --bg-start: #0B1120;
+  --bg-end: #111827;
+}
+
+body {
+  background: linear-gradient(180deg, var(--bg-start), var(--bg-end));
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+}
+
+.card-glass {
+  background: var(--panel-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.card-glass:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.2);
+}
