@@ -1,4 +1,4 @@
-import "../../styles/flowbar-theme.css";
+import "../styles/flowbar-theme.css";
 
 export default function RootLayout({
   children,
